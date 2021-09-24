@@ -1,0 +1,34 @@
+const mensagemSecreta = [
+    'Aprender',
+    'não',
+    'é',
+    'sobre',
+    'o',
+    'que',
+    'você',
+    'consegue',
+    'facilmente',
+    'na',
+    'primeira',
+    'vez',
+    'é',
+    'sobre',
+    'o',
+    'que',
+    'você',
+    'pode',
+    'descobrir.',
+    '-2015.',
+    'Chris',
+    'Pine',
+    'Aprenda',
+    'JavaScript',
+];
+mensagemSecreta.pop();
+mensagemSecreta.push("a","programar.");
+mensagemSecreta.splice(8,1,"certo");
+mensagemSecreta.shift();
+mensagemSecreta.unshift("Programação");
+mensagemSecreta.splice(7,4);
+mensagemSecreta.splice(7,1,"sabe");
+console.log(mensagemSecreta.join(" , "));
