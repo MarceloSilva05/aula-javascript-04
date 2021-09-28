@@ -1,7 +1,9 @@
 
 //1
 let valoresNumericos=[25, 23, 11, 55, 30,  6, 4, 21, 34, 89, 56];
-valoresNumericos.sort();
+valoresNumericos.sort((x,y)=>{// arrow function
+    return x-y; 
+})
 console.log(valoresNumericos);
 
 //2
